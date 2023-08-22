@@ -1,0 +1,15 @@
+// palette.scss
+
+// Color Variables
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$success-color: #28a745;
+$error-color: #dc3545;
+$info-color: #17a2b8;
+
+// Gradients
+$gradient-primary: linear-gradient(to bottom, $primary-color, lighten($primary-color, 10%));
+$gradient-secondary: linear-gradient(to bottom, $secondary-color, lighten($secondary-color, 10%));
+$gradient-success: linear-gradient(to bottom, $success-color, lighten($success-color, 10%));
+$gradient-error: linear-gradient(to bottom, $error-color, lighten($error-color, 10%));
+$gradient-info: linear-gradient(to bottom, $info-color, lighten($info-color, 10%));
