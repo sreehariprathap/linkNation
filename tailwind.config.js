@@ -3,6 +3,9 @@ export default {
 	content: ['./src/styles/**/*.{css,scss}', './src/**/*.{html,js,svelte,ts}'],
 	theme: {
 		extend: {
+			backgroundImage: {
+				"gradient-main": "url('/Rectangle.jpg')"
+			},
 			colors: {
 				screens: {
 					xsm: '0px',

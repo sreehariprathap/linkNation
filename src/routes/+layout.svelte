@@ -4,6 +4,8 @@
 </script>
 
 <div class="bg-slate-100 h-screen w-full">
-	<Navbar />
-	<slot />
+	<!-- <Navbar /> -->
+	<div class="">
+		<slot />
+	</div>
 </div>
